@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import {Header} from '../components/Header'
 ---
 
 <Layout title="Bem Vindo à Ata Sanitaria.">
@@ -33,18 +34,31 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
+		<Header/>
 		<h1>Bem Vindo à <span class="text-gradient"> Ata Sanitaria</span></h1>
 	
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
-				title="Documentos"
-				body="Cadastrar novo Processo."
+				title="Processos"
+				body="Criar Novo Processo."
 			/>
 			<Card
 				href="https://astro.build/integrations/"
+				title="Ata de Conservação"
+				body="Preencher Ata de Conservação"
+			/>
+
+			<Card
+				href="https://astro.build/integrations/"
+				title="Provimento "
+				body="Cadastrar Novo Provimento"
+			/>
+
+			<Card
+				href="https://astro.build/integrations/"
 				title="Consultas"
-				body="Pesquise por Nome ou processo"
+				body="Faça Buscas"
 			/>
 			
 		
