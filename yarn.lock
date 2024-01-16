@@ -515,6 +515,13 @@
   dependencies:
     "@types/unist" "^2"
 
+"@types/node@^18.0.0", "@types/node@^18.0.0 || >=20.0.0":
+  version "18.19.7"
+  resolved "https://registry.npmjs.org/@types/node/-/node-18.19.7.tgz"
+  integrity sha512-IGRJfoNX10N/PfrReRZ1br/7SQ+2vF/tK3KXNwzXz82D32z5dMQEoOlFew18nLSN+vMNcLY4GrKfzwi/yWI8/w==
+  dependencies:
+    undici-types "~5.26.4"
+
 "@types/prop-types@*":
   version "15.7.11"
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.11.tgz"
@@ -647,7 +654,7 @@
   resolved "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.16.tgz"
   integrity sha512-JT5CvrIYYCrmB+dCana8sUqJEcGB1ZDXNLMQ2+42bW995WmNoenijWMUdZfwmuQUTQcEVVIa2OecZzTYWUW9Cg==
 
-acorn@^8.11.2:
+acorn@^8.11.2, acorn@^8.8.0:
   version "8.11.3"
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.11.3.tgz"
   integrity sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==
@@ -730,7 +737,15 @@ array-iterate@^2.0.0:
   resolved "https://registry.npmjs.org/array-iterate/-/array-iterate-2.0.1.tgz"
   integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
-"astro@^3.0.0 || ^4.0.0", astro@^4.1.2:
+astro-auto-import@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.npmjs.org/astro-auto-import/-/astro-auto-import-0.4.2.tgz"
+  integrity sha512-ZgWZQ58+EhbEym1+aoUnNyECOy0wsG5uRUs+rVp/7BzHtj1V76J2qkhjaTWLplgNb+8WrzhvTQNxytmXRCW+Ow==
+  dependencies:
+    "@types/node" "^18.0.0"
+    acorn "^8.8.0"
+
+"astro@^2.0.0 || ^3.0.0-beta || ^4.0.0-beta", "astro@^3.0.0 || ^4.0.0", astro@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/astro/-/astro-4.1.2.tgz"
   integrity sha512-C/CrsIjRnRZYsLIBquAoTKj3ZPyGPVRByEcPMs6CrJLiHmcYnjpRMVd7oBFepU6772U1ZcXLy0zdxoRYjHFf5w==
@@ -3499,6 +3514,11 @@ ultrahtml@^1.3.0:
   version "1.5.2"
   resolved "https://registry.npmjs.org/ultrahtml/-/ultrahtml-1.5.2.tgz"
   integrity sha512-qh4mBffhlkiXwDAOxvSGxhL0QEQsTbnP9BozOK3OYPEGvPvdWzvAUaXNtUSMdNsKDtuyjEbyVUPFZ52SSLhLqw==
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 unherit@^3.0.0:
   version "3.0.1"

@@ -1,7 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import {Header} from '../components/Header'
+import {Header} from '../components/Header';
+import {Ata} from './screens/Ata'
+
 ---
 
 <Layout title="Bem Vindo à Ata Sanitaria.">
@@ -44,9 +46,9 @@ import {Header} from '../components/Header'
 				body="Criar Novo Processo."
 			/>
 			<Card
-				href="https://astro.build/integrations/"
+				href="./Processos"
 				title="Ata de Conservação"
-				body="Preencher Ata de Conservação"
+				body="Preencher Ata"
 			/>
 
 			<Card
@@ -63,6 +65,7 @@ import {Header} from '../components/Header'
 			
 		
 		</ul>
+		<Ata/>
 	</main>
 </Layout>
 
